@@ -3,6 +3,8 @@
 set -x
 
 whoami
-ps aux
-ps -ef
+ps auxfww
 ls -la /
+cat /etc/passwd
+which apt-get
+ls -l `which apt-get`
